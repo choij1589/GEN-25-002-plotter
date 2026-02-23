@@ -1,0 +1,83 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+XLabelSep=4.4
+YLabelSep=5.4
+ConnectBins=0
+RatioPlotSameStyle=0
+RatioPlotErrorBandColor=grey!40!yellow!60
+XTwosidedTicks=1
+YTwosidedTicks=1
+Title={$\sqrt{s}=13\,\mathrm{TeV}$}
+FullRange=1
+LogX=0
+XLabel={JZB, $p_{\mathrm{T}}(\mathrm{Z}) > 50\,$GeV [GeV]}
+YLabel={$d\sigma/d\mathrm{JZB}$ [pb/GeV]}
+LegendXPos=0.5
+LegendYPos=0.9
+RemoveOptions=1
+DrawOnly=/CMS_2018_I1667854/d18-x01-y01 //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01 //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+LegendOnly=/CMS_2018_I1667854/d18-x01-y01 //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01 //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+RatioPlot=1
+RatioPlotReference=/CMS_2018_I1667854/d18-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /CMS_2018_I1667854/d18-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/CMS_2018_I1667854/d18-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e+01	-3.000000e+01	8.586060e-03	8.367140e-04	8.367140e-04
+-3.000000e+01	-1.500000e+01	1.212290e-01	6.711880e-03	6.711880e-03
+-1.500000e+01	0.000000e+00	1.296650e+00	1.041730e-01	1.041730e-01
+0.000000e+00	1.500000e+01	1.630600e+00	1.892260e-01	1.892260e-01
+1.500000e+01	3.000000e+01	8.323350e-01	1.145930e-01	1.145930e-01
+3.000000e+01	5.000000e+01	2.186090e-01	2.466710e-02	2.466710e-02
+5.000000e+01	7.500000e+01	4.097800e-02	4.720830e-03	4.720830e-03
+7.500000e+01	1.050000e+02	9.653680e-03	1.380650e-03	1.380650e-03
+1.050000e+02	1.500000e+02	2.410900e-03	4.193420e-04	4.193420e-04
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+ScaledBy=5.00008195415167434e-07
+Title=MG2918_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e+01	-3.000000e+01	4.654474e-03	1.201781e-03	1.201781e-03
+-3.000000e+01	-1.500000e+01	9.225620e-02	6.177939e-03	6.177939e-03
+-1.500000e+01	0.000000e+00	1.111253e+00	2.144175e-02	2.144175e-02
+0.000000e+00	1.500000e+01	1.341318e+00	2.355731e-02	2.355731e-02
+1.500000e+01	3.000000e+01	5.990883e-01	1.574370e-02	1.574370e-02
+3.000000e+01	5.000000e+01	1.458498e-01	6.727552e-03	6.727552e-03
+5.000000e+01	7.500000e+01	2.482561e-02	2.482563e-03	2.482563e-03
+7.500000e+01	1.050000e+02	3.926437e-03	9.007868e-04	9.007868e-04
+1.050000e+02	1.500000e+02	9.651713e-04	3.648006e-04	3.648006e-04
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/CMS_2018_I1667854/d18-x01-y01
+ScaledBy=5.00001957397394384e-07
+Title=MG356_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e+01	-3.000000e+01	6.207680e-03	1.388080e-03	1.388080e-03
+-3.000000e+01	-1.500000e+01	8.563913e-02	5.952334e-03	5.952334e-03
+-1.500000e+01	0.000000e+00	1.118597e+00	2.151151e-02	2.151151e-02
+0.000000e+00	1.500000e+01	1.359830e+00	2.371838e-02	2.371838e-02
+1.500000e+01	3.000000e+01	5.733955e-01	1.540185e-02	1.540185e-02
+3.000000e+01	5.000000e+01	1.604091e-01	7.054789e-03	7.054789e-03
+5.000000e+01	7.500000e+01	2.233530e-02	2.354348e-03	2.354348e-03
+7.500000e+01	1.050000e+02	4.757930e-03	9.920976e-04	9.920976e-04
+1.050000e+02	1.500000e+02	8.271322e-04	3.376754e-04	3.376754e-04
+# END HISTO1D
+

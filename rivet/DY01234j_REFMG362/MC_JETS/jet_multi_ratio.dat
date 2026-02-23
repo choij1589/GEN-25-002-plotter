@@ -1,0 +1,66 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(\geq N_{\mathrm{jet}})/\sigma(\geq N_{\mathrm{jet}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0027322563914872902, dn: 0.0027322563914872902}}, 1: {"": {up: 0.0028292075875408539, dn: 0.0028292075875408539}}, 2: {"": {up: 0.0013322640039343367, dn: 0.0013322640039343367}}, 3: {"": {up: 0.0031838602923550023, dn: 0.0031838602923550023}}, 4: {"": {up: 0.0056505835707238924, dn: 0.0056505835707238924}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	8.595856e-01	2.732256e-03	2.732256e-03
+1.500000e+00	2.500000e+00	8.134219e-01	2.829208e-03	2.829208e-03
+2.500000e+00	3.500000e+00	2.393078e-01	1.332264e-03	1.332264e-03
+3.500000e+00	4.500000e+00	3.020651e-01	3.183860e-03	3.183860e-03
+4.500000e+00	5.500000e+00	2.911508e-01	5.650584e-03	5.650584e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0027319484342155755, dn: 0.0027319484342155755}}, 1: {"": {up: 0.0028285583868856096, dn: 0.0028285583868856096}}, 2: {"": {up: 0.001330243688447626, dn: 0.001330243688447626}}, 3: {"": {up: 0.003197703221853363, dn: 0.003197703221853363}}, 4: {"": {up: 0.0056952286969972387, dn: 0.0056952286969972387}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	8.599381e-01	2.731948e-03	2.731948e-03
+1.500000e+00	2.500000e+00	8.138545e-01	2.828558e-03	2.828558e-03
+2.500000e+00	3.500000e+00	2.390807e-01	1.330244e-03	1.330244e-03
+3.500000e+00	4.500000e+00	3.041904e-01	3.197703e-03	3.197703e-03
+4.500000e+00	5.500000e+00	2.962726e-01	5.695229e-03	5.695229e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0027424748928443045, dn: 0.0027424748928443045}}, 1: {"": {up: 0.0028353316827336213, dn: 0.0028353316827336213}}, 2: {"": {up: 0.0013396018752678074, dn: 0.0013396018752678074}}, 3: {"": {up: 0.0031944559827324598, dn: 0.0031944559827324598}}, 4: {"": {up: 0.0057011837752211948, dn: 0.0057011837752211948}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_ratio
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	8.613265e-01	2.742475e-03	2.742475e-03
+1.500000e+00	2.500000e+00	8.144592e-01	2.835332e-03	2.835332e-03
+2.500000e+00	3.500000e+00	2.410817e-01	1.339602e-03	1.339602e-03
+3.500000e+00	4.500000e+00	3.049445e-01	3.194456e-03	3.194456e-03
+4.500000e+00	5.500000e+00	2.984606e-01	5.701184e-03	5.701184e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

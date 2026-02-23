@@ -1,0 +1,63 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive prompt electron multiplicity
+XLabel=$N_{\mathrm{electron}}$
+YLabel=$\sigma(N_{\mathrm{electron}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ScaledBy=1.00001996714958461e-06
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.739806e+03	7.012030e+00	7.012030e+00
+5.000000e-01	1.500000e+00	5.469262e+00	2.681527e-01	2.681527e-01
+1.500000e+00	2.500000e+00	1.872172e+03	4.961263e+00	4.961263e+00
+2.500000e+00	3.500000e+00	2.169297e+00	1.688796e-01	1.688796e-01
+3.500000e+00	4.500000e+00	2.642554e+00	1.863914e-01	1.863914e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ScaledBy=1.00000054421021920e-06
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.743710e+03	7.016662e+00	7.016662e+00
+5.000000e-01	1.500000e+00	4.931616e+00	2.546676e-01	2.546676e-01
+1.500000e+00	2.500000e+00	1.874821e+03	4.965460e+00	4.965460e+00
+2.500000e+00	3.500000e+00	2.261966e+00	1.724733e-01	1.724733e-01
+3.500000e+00	4.500000e+00	2.774884e+00	1.910309e-01	1.910309e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ELECTRONS:ENERGY=13600/electron_multi_exclusive_prompt
+ScaledBy=1.00004549403784461e-06
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.716227e+03	7.002892e+00	7.002892e+00
+5.000000e-01	1.500000e+00	5.133371e+00	2.602722e-01	2.602722e-01
+1.500000e+00	2.500000e+00	1.891514e+03	4.996092e+00	4.996092e+00
+2.500000e+00	3.500000e+00	2.137799e+00	1.679614e-01	1.679614e-01
+3.500000e+00	4.500000e+00	2.982361e+00	1.983836e-01	1.983836e-01
+# END HISTO1D
+

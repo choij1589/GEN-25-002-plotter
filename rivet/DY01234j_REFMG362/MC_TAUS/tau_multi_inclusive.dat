@@ -1,0 +1,63 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Inclusive tau multiplicity
+XLabel=$N_{\mathrm{tau}}$
+YLabel=$\sigma(\geq N_{\mathrm{tau}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ScaledBy=1.00001996714958461e-06
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	5.622258e+03	8.597550e+00	8.597550e+00
+5.000000e-01	1.500000e+00	1.915528e+03	5.018377e+00	5.018377e+00
+1.500000e+00	2.500000e+00	1.875087e+03	4.965119e+00	4.965119e+00
+2.500000e+00	3.500000e+00	2.057572e+01	5.201134e-01	5.201134e-01
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ScaledBy=1.00000054421021920e-06
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	5.628500e+03	8.603513e+00	8.603513e+00
+5.000000e-01	1.500000e+00	1.916365e+03	5.020172e+00	5.020172e+00
+1.500000e+00	2.500000e+00	1.875741e+03	4.966677e+00	4.966677e+00
+2.500000e+00	3.500000e+00	2.139680e+01	5.304630e-01	5.304630e-01
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_inclusive
+ScaledBy=1.00004549403784461e-06
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	5.618022e+03	8.610291e+00	8.610291e+00
+5.000000e-01	1.500000e+00	1.906839e+03	5.016295e+00	5.016295e+00
+1.500000e+00	2.500000e+00	1.868068e+03	4.965037e+00	4.965037e+00
+2.500000e+00	3.500000e+00	2.174750e+01	5.357111e-01	5.357111e-01
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

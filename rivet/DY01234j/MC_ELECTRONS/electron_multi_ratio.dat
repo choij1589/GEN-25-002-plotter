@@ -1,0 +1,76 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of electron multiplicity
+XLabel=$N_{\mathrm{electron}}$
+YLabel=$\sigma(\geq N_{\mathrm{electron}})/\sigma(\geq N_{\mathrm{electron}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+LegendOnly=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+RatioPlot=1
+RatioPlotReference=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0019612082764330799, dn: 0.0019612082764330799}}, 1: {"": {up: 0.0032954184201307462, dn: 0.0032954184201307462}}, 2: {"": {up: 0.0014675231655154304, dn: 0.0014675231655154304}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+Title=MG2918_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.351634e-01	1.961208e-03	1.961208e-03
+1.500000e+00	2.500000e+00	7.127962e-01	3.295418e-03	3.295418e-03
+2.500000e+00	3.500000e+00	1.714047e-01	1.467523e-03	1.467523e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0019569788821506917, dn: 0.0019569788821506917}}, 1: {"": {up: 0.0032897974966565693, dn: 0.0032897974966565693}}, 2: {"": {up: 0.0014634965498365746, dn: 0.0014634965498365746}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+Title=MG356_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.347672e-01	1.956979e-03	1.956979e-03
+1.500000e+00	2.500000e+00	7.123613e-01	3.289797e-03	3.289797e-03
+2.500000e+00	3.500000e+00	1.709313e-01	1.463497e-03	1.463497e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0019710928614500097, dn: 0.0019710928614500097}}, 1: {"": {up: 0.0033024105215158908, dn: 0.0033024105215158908}}, 2: {"": {up: 0.0014903044007498979, dn: 0.0014903044007498979}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+Title=MG356_13p6TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.362540e-01	1.971093e-03	1.971093e-03
+1.500000e+00	2.500000e+00	7.123641e-01	3.302411e-03	3.302411e-03
+2.500000e+00	3.500000e+00	1.747597e-01	1.490304e-03	1.490304e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0019822701491485563, dn: 0.0019822701491485563}}, 1: {"": {up: 0.0032879524599766985, dn: 0.0032879524599766985}}, 2: {"": {up: 0.0015086555727278658, dn: 0.0015086555727278658}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=orange
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_ratio
+Title=MG356_13p6TeV_primordialKT
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.394284e-01	1.982270e-03	1.982270e-03
+1.500000e+00	2.500000e+00	7.095439e-01	3.287952e-03	3.287952e-03
+2.500000e+00	3.500000e+00	1.779592e-01	1.508656e-03	1.508656e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

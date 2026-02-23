@@ -1,0 +1,57 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Fraction of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+YLabel=$\mathrm{d}\sigma/\mathrm{d~sgn}(w)$ [pb]
+ShowZero=0
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ScaledBy=1.00001996714958461e-06
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+0.000000e+00	1.000000e+00	5.622258e+03	8.597550e+00	8.597550e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ScaledBy=1.00000054421021920e-06
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+0.000000e+00	1.000000e+00	5.628500e+03	8.603513e+00	8.603513e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_XS:ENERGY=13600/pmXS
+ScaledBy=1.00004549403784461e-06
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+0.000000e+00	1.000000e+00	5.618022e+03	8.610291e+00	8.610291e+00
+# END HISTO1D
+

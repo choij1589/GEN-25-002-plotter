@@ -1,0 +1,69 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Inclusive jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(\geq N_{\mathrm{jet}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ScaledBy=1.00001996714958461e-06
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	1.010874e+03	3.645592e+00	3.645592e+00
+5.000000e-01	1.500000e+00	2.386648e+02	1.771390e+00	1.771390e+00
+1.500000e+00	2.500000e+00	7.416439e+01	9.874552e-01	9.874552e-01
+2.500000e+00	3.500000e+00	2.186375e+01	5.361404e-01	5.361404e-01
+3.500000e+00	4.500000e+00	7.007646e+00	3.035349e-01	3.035349e-01
+4.500000e+00	5.500000e+00	2.156163e+00	1.683680e-01	1.683680e-01
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ScaledBy=1.00000054421021920e-06
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	1.006513e+03	3.638222e+00	3.638222e+00
+5.000000e-01	1.500000e+00	2.400719e+02	1.776849e+00	1.776849e+00
+1.500000e+00	2.500000e+00	7.624954e+01	1.001378e+00	1.001378e+00
+2.500000e+00	3.500000e+00	2.335629e+01	5.542201e-01	5.542201e-01
+3.500000e+00	4.500000e+00	7.311982e+00	3.100971e-01	3.100971e-01
+4.500000e+00	5.500000e+00	2.288275e+00	1.734737e-01	1.734737e-01
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_inclusive
+ScaledBy=1.00004549403784461e-06
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	1.024414e+03	3.676743e+00	3.676743e+00
+5.000000e-01	1.500000e+00	2.343397e+02	1.758526e+00	1.758526e+00
+1.500000e+00	2.500000e+00	7.769982e+01	1.012596e+00	1.012596e+00
+2.500000e+00	3.500000e+00	2.484865e+01	5.726345e-01	5.726345e-01
+3.500000e+00	4.500000e+00	8.194907e+00	3.288503e-01	3.288503e-01
+4.500000e+00	5.500000e+00	2.507296e+00	1.818984e-01	1.818984e-01
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

@@ -1,0 +1,77 @@
+{
+  "DY": {
+    "MG2918 LEGACY": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 3.00,
+      "standard deviation (evt/s)": 0.84
+    },
+    "MG362 UPSTREAM": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 6.16,
+      "standard deviation (evt/s)": 0.60
+    },
+    "FORTRAN": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 7.50,
+      "standard deviation (evt/s)": 1.12
+    },
+    "CPP-NONE": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 6.05,
+      "standard deviation (evt/s)": 0.75
+    },
+    "CPP-AVX2": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 8.74,
+      "standard deviation (evt/s)": 1.53
+    },
+    "CPP-AVX512": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 19.67,
+      "standard deviation (evt/s)": 0.31
+    },
+    "CUDA": {
+      "events": "250000 x 4",
+      "throughput (evt/s)": 16.51,
+      "standard deviation (evt/s)": 0.39
+    }
+  },
+  "TT": {
+    "MG2918 LEGACY": {
+      "events": "75000 x 20",
+      "throughput (evt/s)": 0.939,
+      "standard deviation (evt/s)": 0.169
+    },
+    "MG362 UPSTREAM": {
+      "events": "50000 x 30",
+      "throughput (evt/s)": 0.317,
+      "standard deviation (evt/s)": 0.058
+    },
+    "FORTRAN": {
+      "events": "50000 x 30",
+      "throughput (evt/s)": 0.344,
+      "standard deviation (evt/s)": 0.035
+    },
+    "CPP-NONE": {
+      "events": "100000 x 15",
+      "throughput (evt/s)": 0.553,
+      "standard deviation (evt/s)": 0.103
+    },
+    "CPP-AVX2": {
+      "events": "100000 x 15",
+      "throughput (evt/s)": 0.444,
+      "standard deviation (evt/s)": 0.032
+    },
+    "CPP-AVX512": {
+      "events": "100000 x 15",
+      "throughput (evt/s)": 0.413,
+      "standard deviation (evt/s)": 0.019
+    },
+    "CUDA": {
+      "events": "125000 x 12",
+      "throughput (evt/s)": 0.933,
+      "standard deviation (evt/s)": 0.006
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "DY": {
+    "number of Feynman diagrams": {
+      "0j": 30,
+      "1j": 180,
+      "2j": 3120,
+      "3j": 27600,
+      "4j": 412560
+    },
+    "number of subprocesses": {
+      "0j": 15,
+      "1j": 45,
+      "2j": 285,
+      "3j": 435,
+      "4j": 1455
+    }
+  },
+  "TT": {
+    "number of Feynman diagrams": {
+      "0j": 8,
+      "1j": 91,
+      "2j": 1473,
+      "3j": 17660
+    },
+    "number of subprocesses": {
+      "0j": 6,
+      "1j": 16,
+      "2j": 96,
+      "3j": 146
+    }
+  }
+}

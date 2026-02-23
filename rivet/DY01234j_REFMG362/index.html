@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Plots from Rivet analyses</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body><h2>Plots from Rivet analyses</h2>
+
+
+<h3><a href="MC_ELECTRONS/index.html" style="text-decoration:none;">Monte Carlo validation observables for electron production (MC_ELECTRONS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Any electrons with $p_\perp &gt; 0.5$ GeV are found and projected onto many different observables. To restrict attention to direct/prompt electrons only, use the DIRECT option. To use lepton dressing, use the DRESSED option; this only makes sense for prompt leptons, and is automatically activated if DIRECT=1 is used, hence the main use of DRESSED is to *disable* lepton dressing in DIRECT=1 mode.</p>
+
+<h3><a href="MC_JETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for jet production (MC_JETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Jets with $p_\perp&gt;20$ GeV are constructed with an anti-$k_\perp$ jet finder with $R=0.4$ and projected onto many different observables.</p>
+
+<h3><a href="MC_MUONS/index.html" style="text-decoration:none;">Monte Carlo validation observables for muon production (MC_MUONS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Any muons with $p_\perp &gt; 0.5$ GeV are found and projected onto many different observables. To restrict attention to direct/prompt electrons only, use the DIRECT option. To use lepton dressing, use the DRESSED option; this only makes sense for prompt leptons, and is automatically activated if DIRECT=1 is used, hence the main use of DRESSED is to *disable* lepton dressing in DIRECT=1 mode.</p>
+
+<h3><a href="MC_PHOTONS/index.html" style="text-decoration:none;">Monte Carlo validation observables for general photons (MC_PHOTONS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Observables for testing general unisolated photon properties, especially those associated with charged leptons (e and mu).</p>
+
+<h3><a href="MC_TAUS/index.html" style="text-decoration:none;">Monte Carlo validation observables for tau production (MC_TAUS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Any taus with $p_\perp &gt; 0.5$ GeV are found and projected onto many different observables. There is currently no photon clustering on to these taus. Multiplicities are tracked for both inclusive and prompt-only particles -- maybe a MC_PROMPTTAUS analysis is needed?</p>
+
+<h3><a href="MC_XS/index.html" style="text-decoration:none;">MC analysis for process total cross section (MC_XS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Analysis for bookkeeping of the total cross section, number of generated events and the ratio of events with positive and negative weights. This analysis will not produce sensible distributions in case of correlated NLO sub-events.</p>
+
+<h3><a href="MC_ZINC/index.html" style="text-decoration:none;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ production (MC_ZINC)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ production</p>
+
+<h3><a href="MC_ZJETS/index.html" style="text-decoration:none;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ + jets production (MC_ZJETS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Available observables are the pT of jets 1-4, jet multiplicity, $\Delta\eta(Z, \text{jet1})$, $\Delta R(\text{jet2}, \text{jet3})$, differential jet rates 0-&gt;1, 1-&gt;2, 2-&gt;3, 3-&gt;4, and integrated 0--4 jet rates.</p>
+
+<h3><a href="MC_ZKTSPLITTINGS/index.html" style="text-decoration:none;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ + jets production (MC_ZKTSPLITTINGS)</a></h3>
+<p></p>
+<p style="font-size:smaller;">Monte Carlo validation observables for $Z[\ell^+ \, \ell^-]$ + jets production</p>
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Tuesday, 02. December 2025 07:02AM</p>
+<p>Created with command: <pre>rivet-mkhtml --errs --no-weights DY01234j_UPSTREAM/merged.yoda.gz:Title=MG362 DY01234j_CPP512Z/merged.yoda.gz:Title=CPP-AVX512 DY01234j_CUDA/merged.yoda.gz:Title=CUDA</pre></p>
+</footer>
+
+</body>
+</html>

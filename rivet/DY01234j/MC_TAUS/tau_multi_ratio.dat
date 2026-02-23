@@ -1,0 +1,76 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of tau multiplicity
+XLabel=$N_{\mathrm{tau}}$
+YLabel=$\sigma(\geq N_{\mathrm{tau}})/\sigma(\geq N_{\mathrm{tau}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+LegendOnly=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+RatioPlot=1
+RatioPlotReference=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0014308611551953525, dn: 0.0014308611551953525}}, 1: {"": {up: 0.005222745976221797, dn: 0.005222745976221797}}, 2: {"": {up: 0.00031089644266040959, dn: 0.00031089644266040959}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG2918/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+Title=MG2918_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.405787e-01	1.430861e-03	1.430861e-03
+1.500000e+00	2.500000e+00	9.791172e-01	5.222746e-03	5.222746e-03
+2.500000e+00	3.500000e+00	1.101299e-02	3.108964e-04	3.108964e-04
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0014254634423001692, dn: 0.0014254634423001692}}, 1: {"": {up: 0.0052219928911960284, dn: 0.0052219928911960284}}, 2: {"": {up: 0.00030303829918284207, dn: 0.00030303829918284207}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+Title=MG356_13TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.395108e-01	1.425463e-03	1.425463e-03
+1.500000e+00	2.500000e+00	9.790071e-01	5.221993e-03	5.221993e-03
+2.500000e+00	3.500000e+00	1.050960e-02	3.030383e-04	3.030383e-04
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0014363284546342965, dn: 0.0014363284546342965}}, 1: {"": {up: 0.0052380995000122698, dn: 0.0052380995000122698}}, 2: {"": {up: 0.0003088116814295252, dn: 0.0003088116814295252}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356_noPrimodialKT/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+Title=MG356_13p6TeV
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.406955e-01	1.436328e-03	1.436328e-03
+1.500000e+00	2.500000e+00	9.784997e-01	5.238100e-03	5.238100e-03
+2.500000e+00	3.500000e+00	1.080510e-02	3.088117e-04	3.088117e-04
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0014414916859722428, dn: 0.0014414916859722428}}, 1: {"": {up: 0.0052385300508272191, dn: 0.0052385300508272191}}, 2: {"": {up: 0.00030628936358953083, dn: 0.00030628936358953083}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=orange
+LineStyle=solid
+Path=//data9/Users/choij/cms-mg4gpu-integration/genValidation/DY01234j_13p6TeV_MG356/merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio
+Title=MG356_13p6TeV_primordialKT
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.417581e-01	1.441492e-03	1.441492e-03
+1.500000e+00	2.500000e+00	9.787372e-01	5.238530e-03	5.238530e-03
+2.500000e+00	3.500000e+00	1.064846e-02	3.062894e-04	3.062894e-04
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

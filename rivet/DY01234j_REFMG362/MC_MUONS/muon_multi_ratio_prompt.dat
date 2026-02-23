@@ -1,0 +1,60 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of prompt muon multiplicity
+XLabel=$N_{\mathrm{muon}}$
+YLabel=$\sigma(\geq N_{\mathrm{muon}})/\sigma(\geq N_{\mathrm{muon}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+LegendOnly=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+RatioPlot=1
+RatioPlotReference=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0013925868155405207, dn: 0.0013925868155405207}}, 1: {"": {up: 0.005294431837239595, dn: 0.005294431837239595}}, 2: {"": {up: 5.9598247025843026e-05, dn: 5.9598247025843026e-05}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_UPSTREAM/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+Title=MG362
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.333228e-01	1.392587e-03	1.392587e-03
+1.500000e+00	2.500000e+00	9.992564e-01	5.294432e-03	5.294432e-03
+2.500000e+00	3.500000e+00	4.843986e-04	5.959825e-05	5.959825e-05
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.001392594028526474, dn: 0.001392594028526474}}, 1: {"": {up: 0.0052909016962820327, dn: 0.0052909016962820327}}, 2: {"": {up: 6.0384925655941373e-05, dn: 6.0384925655941373e-05}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CPP512Z/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+Title=CPP-AVX512
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.335288e-01	1.392594e-03	1.392594e-03
+1.500000e+00	2.500000e+00	9.993345e-01	5.290902e-03	5.290902e-03
+2.500000e+00	3.500000e+00	4.977088e-04	6.038493e-05	6.038493e-05
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0013882641444444386, dn: 0.0013882641444444386}}, 1: {"": {up: 0.0053273586291438134, dn: 0.0053273586291438134}}, 2: {"": {up: 5.7136186253165746e-05, dn: 5.7136186253165746e-05}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//eos/home-c/choij/cms-mg4gpu-integration/genValidation/DY01234j_CUDA/merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio_prompt
+Title=CUDA
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	3.307243e-01	1.388264e-03	1.388264e-03
+1.500000e+00	2.500000e+00	9.993253e-01	5.327359e-03	5.327359e-03
+2.500000e+00	3.500000e+00	4.406410e-04	5.713619e-05	5.713619e-05
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

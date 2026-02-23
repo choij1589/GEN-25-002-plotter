@@ -1,0 +1,106 @@
+{
+  "DY": {
+    "MG2918 LEGACY": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME (h)": 29.85,
+      "others (h)": 1.6,
+      "total (h)": 31.45
+    },
+    "MG362 UPSTREAM": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME (h)": 54.12,
+      "others (h)": 1.56,
+      "total (h)": 55.68
+    },
+    "FORTRAN": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 54.08,
+      "others": 0.68,
+      "total": 55.77
+    },
+    "CPP-NONE": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 217.63,
+      "others": 4.84,
+      "total": 222.47
+    },
+    "CPP-AVX2": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 49.1,
+      "others": 5.63,
+      "total": 54.73  
+     },
+     "CPP-AVX512": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 33.15,
+      "others": 5.8,
+      "total": 38.95
+     },
+     "CUDA": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8468",
+      "GPU": "NVIDIA H100 NVL",
+      "nb_core": 28,
+      "ME": 17.08,
+      "others": 7.27,
+      "total": 24.35
+     }
+  },
+  "TT": {
+    "MG2918 LEGACY": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 3.95,
+      "others": 1.83,
+      "total": 5.78
+    },
+    "MG362 UPSTREAM": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 5.05,
+      "others": 2.8,
+      "total": 7.85
+    },
+    "FORTRAN": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 4.97,
+      "others": 2.2,
+      "total": 7.17
+    },
+    "CPP-NONE": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 8.63,
+      "others": 2.05,
+      "total": 10.68
+    },
+    "CPP-AVX2": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 1.9,
+      "others": 2.32,
+      "total": 4.22
+    },
+    "CPP-AVX512": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8173M CPU @ 2.00GHz",
+      "nb_core": 80,
+      "ME": 1.03,
+      "others": 2.37,
+      "total": 3.4
+    },
+    "CUDA": {
+      "CPU": "Intel(R) Xeon(R) Platinum 8468",
+      "GPU": "NVIDIA H100 NVL",
+      "nb_core": 12,
+      "ME": 0.4,
+      "others": 1.55,
+      "total": 1.95
+    }
+  }
+}
